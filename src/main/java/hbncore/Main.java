@@ -18,7 +18,6 @@ public class Main extends JavaPlugin {
 
     CommandEnabler.enableCommands(this);
     new ItemEnabler().enableItems(this);
-
-    adding a bad line to cause it to fail to test gh actions
+    
     }
 }
