@@ -7,6 +7,6 @@ import hbncore.commands.CommandStarter;
 public class CommandEnabler {
     public static void enableCommands(Main main) {
         main.getCommand("starter").setExecutor(new CommandStarter());
-        //main.getCommand("rules").setExecutor(new CommandRules());
+        main.getCommand("rules").setExecutor(new CommandRules());
     }
 }

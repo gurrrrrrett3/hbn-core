@@ -8,3 +8,11 @@ commands:
     description: shows starter info
     usage: /<command>
     permission: hbncore.starter
+  rules:
+    description: shows rules
+    usage: /<command>
+    permission: hbncore.rules
+  giveitem:
+    description: gives an item from the plugin
+    usage: /<command> <item>
+    permission: hbncore.giveitem
