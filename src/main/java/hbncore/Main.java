@@ -3,7 +3,7 @@ package hbncore;
 import hbncore.commands.CommandStarter;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class main extends JavaPlugin {
+public class Main extends JavaPlugin {
 
 @Override
     public void onEnable() {

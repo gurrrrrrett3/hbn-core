@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="hbncore">
+    <output-path>$PROJECT_DIR$/out/artifacts/hbncore</output-path>
+    <root id="archive" name="hbncore.jar">
+      <element id="module-output" name="hbncore.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

@@ -11,7 +11,12 @@ public class CommandStarter implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         sender.sendMessage("Welcome!");
+        sender.sendMessage("yeah I need to put a starter message here");
 
-        return false;
+        if (sender.getName() == "Pogeye") {
+            sender.sendMessage("Fuck you popeye you don't need this command");
+        }
+
+        return true;
     }
 }
