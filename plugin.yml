@@ -1,0 +1,10 @@
+main: dev.gooch.hbncore.main
+version: 1.0.0
+api-version: 1.18
+name: hbncore
+author: gooch (gurrrrrrett3)
+commands:
+  starter:
+    description: shows starter info
+    usage: /starter
+    permission: hbncore.starter
